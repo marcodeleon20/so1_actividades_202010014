@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Lee la variable GITHUB_USER
-GITHUB_USER="marcodeleon20"
+read -p "Ingrese su nombre de usuario: " GITHUB_USER
 
 # Se obtiene la fecha actual
 FEACHA_ACTUAL=$(date '+%Y-%m-%d')
