@@ -150,7 +150,7 @@ La gestión correcta de usuarios y permisos en un sistema operativo es esencial 
 
 3. **Integridad del Sistema**: La restricción de ciertas acciones a usuarios privilegiados (como el usuario `root` en Linux) evita que los usuarios sin experiencia realicen cambios accidentales que podrían desestabilizar o dañar el sistema.
 
-4. **Eficiencia Organizativa**: En entornos empresariales o educativos, la correcta asignación de roles y permisos garantiza que cada usuario tenga las herramientas y el acceso que necesita para realizar su trabajo, ni más ni menos.
+
 
 ### ¿Qué otros comandos o técnicas conocen para gestionar permisos en Linux?
 
@@ -161,8 +161,6 @@ La gestión correcta de usuarios y permisos en un sistema operativo es esencial 
 3. **Sticky Bit**: Es un permiso especial que puede establecerse en directorios para que solo el propietario de un archivo dentro de ese directorio pueda renombrar o eliminar dicho archivo. Se configura con `chmod +t directorio`.
 
 4. **SUID y SGID**: Son bits especiales que, cuando se establecen en un archivo ejecutable, permiten que el archivo se ejecute con los permisos del propietario (SUID) o del grupo (SGID) en lugar de con los permisos del usuario que lo ejecutó. Se configuran con `chmod u+s archivo` (para SUID) y `chmod g+s archivo` (para SGID).
-
-5. **Umask**: Es una configuración que determina los permisos predeterminados cuando se crean nuevos archivos o directorios. Esto asegura que los archivos y directorios se creen con permisos restringidos por defecto, según las necesidades del sistema o del entorno organizativo.
 
 
 
