@@ -1,0 +1,10 @@
+[Unit]
+Description=202010014 Marco de Leon 
+
+
+[Service]
+ExecStart=/home/marco/Documentos/GitHub/so1_actividades_202010014/Actividad4/script.sh
+User=marco
+
+[Install]
+WantedBy=multi-user.target
